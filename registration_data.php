@@ -10,14 +10,14 @@
   $aboutUser = $_POST['aboutUser'];
 
     if (empty($first_name)) { {
-      } if (empty($last_name)) {
-        } if (empty($city)) {
-          } if (empty($major)) {
-            } if (empty($major)) {
-              } if (empty($email)) {
-                } if (empty($username)) {
-                  } if (empty($password)) {
-                    } if (empty($aboutUser)) {
+      } else if (empty($last_name)) {
+        } else if (empty($city)) {
+          } else if (empty($major)) {
+            } else if (empty($major)) {
+              } else if (empty($email)) {
+                } else if (empty($username)) {
+                  } else if (empty($password)) {
+                    } else if (empty($aboutUser)) {
                     }
                     error_message = 'Field(s) were left empty!';
                     }
