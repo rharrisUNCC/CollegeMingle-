@@ -18,8 +18,8 @@
                 } if (empty($username)) {
                   } if (empty($password)) {
                     } if (empty($aboutUser)) {
-                      error_message = 'Field(s) were left empty!'
                     }
+                    error_message = 'Field(s) were left empty!';
                     }
 
 ?>
