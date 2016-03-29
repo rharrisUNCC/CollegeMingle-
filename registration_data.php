@@ -9,17 +9,28 @@
   $password = $_POST['password'];
   $aboutUser = $_POST['aboutUser'];
 
-    if (empty($first_name)) { {
+    if (empty($first_name)) {
+        error_message = 'Field(s) were left empty!';
       } else if (empty($last_name)) {
+          error_message = 'Field(s) were left empty!';
         } else if (empty($city)) {
+            error_message = 'Field(s) were left empty!';
           } else if (empty($major)) {
+              error_message = 'Field(s) were left empty!';
             } else if (empty($major)) {
+                error_message = 'Field(s) were left empty!';
               } else if (empty($email)) {
+                  error_message = 'Field(s) were left empty!';
                 } else if (empty($username)) {
-                  } else if (empty($password)) {
-                    } else if (empty($aboutUser)) {
-                    }
                     error_message = 'Field(s) were left empty!';
-                    }
+                  } else if (empty($password)) {
+                      error_message = 'Field(s) were left empty!';
+                    } else if (empty($aboutUser)) {
+                        error_message = 'Field(s) were left empty!';
+                      } else {
+                          error_message = '';  
+                      }
+                      
+                      
 
 ?>
