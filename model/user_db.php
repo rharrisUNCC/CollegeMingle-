@@ -43,6 +43,12 @@ function delete_user() {
 
 //quick_match function
 function quick_match() {
+  global $db;
+  $query = 'INSERT INTO quick_match'
+  $statement = $db->prepare($query);
+  $statement->bindValue();
+  $statement->execute();
+  $statement->closeCursor();
   
 }
 ?>
